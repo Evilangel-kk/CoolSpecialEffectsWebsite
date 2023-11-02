@@ -1695,11 +1695,11 @@ input[name="r"] {
 .fishing .container {
     position: relative;
     margin-left: 20px;
-    /* margin-top: 285px; */
-    width: 98.3%;
-    height: 30%;
-    bottom: 180px;
-    border-radius: 20px;
+    width: 98.1%;
+    height: 50%;
+    transform: translateY(50px);
+    margin: 0;
+    padding: 0;
 }
 
 .fishing .container canvas {
@@ -1766,8 +1766,6 @@ footer {
     flex-direction: column;
 }
 
-.info-box .i2 p {}
-
 .info-box .i3 {
     padding-left: 100px;
 }
@@ -1790,4 +1788,9 @@ footer {
     font-size: 20px;
     font-weight: 600;
     color: white;
+}
+
+font-weight: 600;
+color: white;
+
 }
