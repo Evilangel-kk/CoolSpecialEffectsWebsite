@@ -77,6 +77,7 @@ a {
     left: calc(50% - 125px);
     width: 250px;
     height: auto;
+    pointer-events: none;
 }
 
 .navbar .nav ul {
@@ -1697,7 +1698,7 @@ input[name="r"] {
     margin-left: 20px;
     width: 98.1%;
     height: 50%;
-    transform: translateY(50px);
+    transform: translateY(52px);
     margin: 0;
     padding: 0;
 }
@@ -1788,9 +1789,4 @@ footer {
     font-size: 20px;
     font-weight: 600;
     color: white;
-}
-
-font-weight: 600;
-color: white;
-
 }
